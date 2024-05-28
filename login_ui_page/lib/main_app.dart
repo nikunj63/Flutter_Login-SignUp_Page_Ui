@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_ui_page/ui/login.dart';
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
@@ -12,7 +13,7 @@ class MainApp extends StatelessWidget {
           seedColor: const Color.fromARGB(32, 63, 129, 1),
           ),
       ),
-
+      home: const Login(),
     );
   }
 }
